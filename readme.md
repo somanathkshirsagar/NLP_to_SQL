@@ -26,8 +26,6 @@ Our chatbot takes a user's natural language query, translates it into a SQL quer
 
 ![Chatbot Architecture](./docs/mysql-chains.png)
 
-Refer to the [tutorial video](https://youtu.be/your-video-url) for a comprehensive understanding and walkthrough.
-
 <a name="prerequisites"></a>
 ## Prerequisites
 Before getting started, make sure you meet these prerequisites:
@@ -37,7 +35,41 @@ To verify if Python is already installed, open the terminal and type `python --v
 
 <a name="installation"></a>
 ## Installation
-Clone the repo:
+Ensure you have Python installed on your machine. Then clone this repository:
+
 ```bash
 git clone [repository-link]
 cd [repository-directory]
+```
+
+Install the required packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+Create your own .env file with the necessary variables, including your OpenAI API key:
+
+```bash
+OPENAI_API_KEY=[your-openai-api-key]
+```
+
+## Usage
+To launch the Streamlit app and interact with the chatbot:
+
+```bash
+streamlit run app.py
+```
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+**Note**: This project is intended for educational and research purposes. Please ensure compliance with the terms of use and guidelines of any APIs or services used.
+
+*If you find this project helpful, please consider giving it a star!*
+
+## Support
+Have questions? Found bugs? Need help troubleshooting? Feel free to contact me at somanathtk198@gmail.com, or submit an issue here on GitHub.
+
+Please remember that this project is meant for educational and research purposes, so kindly comply with the terms of service and guidelines when using any related APIs or services. Happy coding! 🚀👨‍💻🤖
+
